@@ -1,0 +1,9 @@
+{
+  "name": "concurrently-example",
+  "scripts": {
+    "go": "concurrently \"node foo.js\""
+  },
+  "dependencies": {
+    "concurrently": "^3.4.0"
+  }
+}
