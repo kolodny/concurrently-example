@@ -1,7 +1,8 @@
 {
   "name": "concurrently-example",
   "scripts": {
-    "go": "concurrently \"node foo.js\""
+    "go": "concurrently \"node foo.js\"",
+    "go-works": "concurrently \"node foo-works-on-windows.js\""
   },
   "dependencies": {
     "concurrently": "^3.4.0"
